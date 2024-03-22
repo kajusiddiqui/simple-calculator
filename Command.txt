@@ -1,0 +1,21 @@
+npm init
+tsc --init
+npm i inquirer
+npm i --save-dev@types/inquirer
+
+
+add a line in package.json after 
+"main": "index.js",
+"type": "module",
+
+For npx
+
+1)#! /usr/bin/env node
+//SHABANG
+
+For making publicall access add a line in package.json after 
+"main": "index.js",
+"type": "module",
+2)"bin": "index.js",
+3)Login npm
+4)Publish Code(command "npm publish")
