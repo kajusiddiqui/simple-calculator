@@ -19,3 +19,20 @@ For making publicall access add a line in package.json after
 2)"bin": "index.js",
 3)Login npm
 4)Publish Code(command "npm publish")
+
+
+For 1st time making Github Repository(create a new repository on the command line)
+
+echo "# simple-calculator" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/kajusiddiqui/simple-calculator.git
+git push -u origin main
+
+For 2nd time push an existing repository from the command line
+
+git remote add origin https://github.com/kajusiddiqui/simple-calculator.git
+git branch -M main
+git push -u origin main
